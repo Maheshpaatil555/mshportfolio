@@ -66,7 +66,7 @@ function Hero() {
           <img className='w-9 md:w-12 my-3 me-2' src='./Svg/tailwind.svg' alt="Tailwind CSS logo"></img>
           <img className='w-9 md:w-12 my-3 me-2' src='./Svg/redx.svg' alt="Tailwind CSS logo"></img>
        <div className='relative '>
-  <img className='w-9 md:w-12 my-3 me-2' src='./Svg/Git.svg' />
+  <img className='w-9 md:w-12 my-3 me-2' src='./Svg/Git.svg' alt="Git logo" />
   <img 
     className='absolute  bottom-32 md:bottom-16 -right-1 md:-right-16 rotate-[33deg] w-32 max-w-none'
     src='./Svg/Hover.gif' 
