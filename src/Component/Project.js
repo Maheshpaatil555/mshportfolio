@@ -75,15 +75,15 @@ const CardGrid = () => {
               {card.project}
             </div>
 
-            <div className=" w-full px-8 py-3  pt-5 md:py-10  md:ps-20 md:w-[400px] h-[330px] md:h-[420px] flex items-center justify-center rounded-t-[50px] md:rounded-l-[50px] md:rounded-tr-none">
+            <div className=" w-full px-8 py-3  pt-5 md:py-10  md:ps-20 md:w-[400px] h-[300px] md:h-[420px] flex items-center justify-center rounded-t-[50px] md:rounded-l-[50px] md:rounded-tr-none">
               <div className="bg-orange-400 rounded-3xl w-full h-full"></div>
             </div>
 
             <div className="p-10 md:ps-5 pb-5 pt-3 md:pt-0 md:h-64 flex flex-col items-start justify-between">
-              <h2 className="hidden md:block  font-project font-bold text-2xl md:text-4xl mb-2">
+              <h2 className="hidden md:block font-project font-bold text-2xl md:text-4xl mb-2">
                 {card.title}
               </h2>
-              <h2 className="block md:hidden  font-project font-bold text-2xl md:text-4xl mb-2">
+              <h2 className="block md:hidden  font-project font-bold text-xl md:text-4xl mb-2">
                 {card.titles}
               </h2>
               <p className="text-white hover:text-blue-300 font-about py-1  md:py-0 uppercase tracking-widest text-xs underline underline-offset-8 cursor-pointer mb-4">
@@ -99,7 +99,7 @@ const CardGrid = () => {
                       key={index}
                       src={tech}
                       alt="tech"
-                      className="w-8 h-8 object-contain"
+                      className="w-6 md:w-8 h-6 md:h-8 object-contain"
                     />
                   ))}
                 </div>

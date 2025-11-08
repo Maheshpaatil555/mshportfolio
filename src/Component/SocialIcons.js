@@ -22,7 +22,7 @@ export default function SocialIcons({ isOpen }) {
   ];
 
   return (
-    <ul className="social flex md:pt-14 pb-6 justify-center items-center h-full">
+    <ul className="social flex md:pt-14 pb-6  justify-center items-center h-full">
       {socials.map((social, idx) => (
         <li key={idx} className="social-item">
           <a

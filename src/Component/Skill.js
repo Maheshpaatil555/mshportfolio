@@ -22,7 +22,7 @@ function Skill() {
 
   return (
     <div className="w-full px-5 pt-10 md:pt-20 mt-8 md:mt-7 bg-black">
-      <h2 className="relative text-5xl flex font-semibold font-name text-start ps-5 md:ps-36 mb-16 md:mb-20 text-white">
+      <h2 className="relative text-4xl md:text-5xl flex font-semibold font-name text-start ps-5 md:ps-36 mb-16 md:mb-20 text-white">
         Skills
         <div className="absolute -top-2 left-44 md:left-[300px]">
           <svg
