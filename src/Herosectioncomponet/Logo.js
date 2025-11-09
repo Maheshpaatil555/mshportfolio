@@ -2,11 +2,11 @@ function Logo() {
   return (
     <svg
       aria-hidden="true"
-      width="48"
-      height="29"
+      width="40"
+      height="25"
       viewBox="0 0 48 29"
       xmlns="http://www.w3.org/2000/svg"
-      className="text-cyan-400 "
+      className="text-cyan-400 mt-1"
       style={{ transform: "scaleY(-1)" }} 
     >
       <defs>

@@ -54,24 +54,23 @@ function Sidebar() {
       </div>
 
       <div
-        className={`fixed top-0 left-0 h-full w-[105px]  flex flex-col bg-black justify-between py-4 z-40 transition-transform duration-300
+        className={`fixed top-0 left-0 h-full w-[90px]  flex flex-col bg-black justify-between py-4 z-40 transition-transform duration-300
         ${isOpen ? 'translate-x-0' : '-translate-x-full'}`} 
       >
-        {/* Icons (spaced evenly) */}
-        <div className="flex flex-col justify-between py-6 pb-52 md:pb-0  items-center flex-1">
-            <a href="#about" className="text-white text-2xl hover:text-blue-400 transition-colors">
+        <div className="flex flex-col justify-between py-6 pb-96 md:pb-10  items-center flex-1">
+            <a href="#about" className="text-white text-xl hover:text-blue-400 transition-colors">
             <Logo/>
           </a>
-          <a href="#about" className="text-white text-3xl hover:text-blue-400 transition-colors">
+          <a href="#about" className="text-white text-2xl hover:text-blue-400 transition-colors">
             <FaUser />
           </a>
-          <a href="#skills" className="text-white text-3xl hover:text-blue-400 transition-colors">
+          <a href="#skills" className="text-white text-2xl hover:text-blue-400 transition-colors">
             <FaCode />
           </a>
-          <a href="#projects" className="text-white text-3xl hover:text-blue-400 transition-colors">
+          <a href="#projects" className="text-white text-2xl hover:text-blue-400 transition-colors">
             <FaProjectDiagram />
           </a>
-          <a href="#contact" className="text-white text-3xl hover:text-blue-400 transition-colors">
+          <a href="#contact" className="text-white text-2xl hover:text-blue-400 transition-colors">
             <FaEnvelope />
           </a>
         </div>

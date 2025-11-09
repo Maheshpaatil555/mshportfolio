@@ -21,10 +21,10 @@ function Skill() {
   const rightSkills = skills.slice(Math.ceil(skills.length / 2));
 
   return (
-    <div className="w-full px-5 pt-10 md:pt-20 mt-8 md:mt-7 bg-black">
-      <h2 className="relative text-4xl md:text-5xl flex font-semibold font-name text-start ps-5 md:ps-36 mb-16 md:mb-20 text-white">
+    <div className="w-full px-8 md:px-5 pt-10 md:pt-20 mt-8 md:mt-7 bg-black">
+      <h2 className="relative text-4xl md:text-5xl flex font-semibold font-name text-start ps-5 md:ps-36 mb-14 md:mb-20 text-white">
         Skills
-        <div className="absolute -top-2 left-44 md:left-[300px]">
+        <div className="absolute -top-2 left-[135px] md:left-[300px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
@@ -59,7 +59,6 @@ function Skill() {
           ))}
         </div>
 
-        {/* Right column */}
         <div className="space-y-10">
           {rightSkills.map((skill, index) => (
             <SkillBar key={index} skill={skill} loaded={loaded} index={index + leftSkills.length} />
@@ -76,9 +75,9 @@ function SkillBar({ skill, loaded, index }) {
 
   return (
     <div className="group">
-      <div className="flex justify-between mb-3">
-        <span className="text-xl font-semibold font-about text-white">{skill.name}</span>
-        <span className="text-xl font-semibold font-about text-white">{skill.level}%</span>
+      <div className="flex justify-between mb-3 px-1">
+        <span className="text-lg md:text-xl font-semibold font-about text-white">{skill.name}</span>
+        <span className="text-lg md:text-xl font-semibold font-about text-white">{skill.level}%</span>
       </div>
 
       <div className="relative w-full h-10 bg-gray-800 rounded-full overflow-hidden shadow-inner">
