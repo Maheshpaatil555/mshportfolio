@@ -137,7 +137,7 @@ function Hero() {
         <p>
           <button
             onClick={() =>
-              window.open("/resume/Mahesh_Patil_Resume_(555).pdf", "_blank")
+              window.open("/resume/Mahesh_resume.pdf", "_blank")
             }
             className="px-12 md:px-20 py-2 font-name font-medium text-white border-2 border-gray-400 rounded-lg h-12"
           >
